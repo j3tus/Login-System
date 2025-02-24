@@ -7,7 +7,7 @@ A Simple login system that is built as demo authentication system and is made fo
 ### Prerequisites
 
 - Latest version of Python
-- Postgresql 14
+- Postgresql 17x 
 
 ### Installation
 
