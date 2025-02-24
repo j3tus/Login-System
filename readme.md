@@ -1,13 +1,13 @@
 # Sample Login System (Made for College)
 
-A Simple login system that is built as demo authentication system and is made for ease of implementation to existing projects. If
+A Simple login system that is built as demo authentication system and is made for ease of implementation to existing projects. 
 
 ## Getting Started
 
 ### Prerequisites
 
 - Latest version of Python
-- Postgresql 14
+- Postgresql 17x 
 
 ### Installation
 
