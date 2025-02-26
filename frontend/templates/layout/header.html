@@ -1,0 +1,17 @@
+<header>
+    <nav class="bg-gray-700 px-4 py-2.5">
+        <div class="flex justify-between items-center max-w-screen-xl mx-auto">
+            <a href="/" class="flex items-center">
+                <span class="text-xl font-semibold text-blue-400">Login System</span>
+            </a>
+            <div class="flex items-center">
+                {% if username %}
+                    <a href="/logout" class="text-white hover:bg-gray-700 font-medium rounded-lg text-sm px-4 py-2">Logout</a>
+                {% else %}
+                    <a href="/auth/login" class="text-blue-400 hover:bg-gray-700 font-medium rounded-lg text-md px-4 py-2 mr-2">Log in</a>
+                    <a href="/auth/register" class="text-white bg-blue-600 hover:bg-blue-800 font-medium rounded-lg text-sm px-4 py-2">Get started</a>
+                {% endif %}
+            </div>
+        </div>
+    </nav>
+</header>
